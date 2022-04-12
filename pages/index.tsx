@@ -3,6 +3,7 @@ import Head from "next/head";
 import About from "../components/about";
 import Masthead from "../components/masthead";
 import Skills from "../components/skills";
+import Trusted from "../components/trusted";
 import Works from "../components/works";
 
 const Home: NextPage = () => {
@@ -18,7 +19,7 @@ const Home: NextPage = () => {
       <About />
       <Skills />
       <Works />
-      <About />
+      <Trusted />
     </div>
   );
 };
