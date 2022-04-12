@@ -46,8 +46,8 @@ const Skills: React.FC = () => {
               opacity: opacityForBlock(progress, 1),
             }}
           >
-            Nuestro equipo ha contribuido en 128 commits para &ldquo;React
-            Native&rdquo;, impulsando miles de WebApps.
+            Nuestro equipo ha contribuido en 128 commits para
+            &ldquo;NextJs&rdquo;, impulsando miles de WebApps.
           </span>
           <span
             className={`${s.skillText} inline-block`}

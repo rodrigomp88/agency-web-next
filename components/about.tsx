@@ -6,7 +6,7 @@ const About: React.FC = () => {
     <section className={`flex flex-col bg-white py-20 text-3xl md:text-4xl`}>
       <div className="container mx-auto px-11">
         <p className="leading-tight max-w-5xl mx-auto text-3xl lg:text-4xl tracking-tight">
-          <strong>Te ayudaremos a hacer WebApps mas rapido y mejores.</strong>
+          <strong>Te ayudaremos a hacer WebApps mas rapido y mejores.</strong>{" "}
           Nuestro equipo de expertos e ingenieros ha creado la mejor experiencia
           de usuario de algunas de las WebApps mas populares de todo internet
         </p>
