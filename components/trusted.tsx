@@ -10,9 +10,8 @@ const Trusted: React.FC = () => (
     <div className="flex-1"></div>
     <div className="flex flex-col justify-center items-center">
       <h3 className="text-xl mb-10 font-bold text-center">
-        <span className="whitespace-nowrap">Confian en nosotros</span>{" "}
-        <span className="whitespace-nowrap">
-          algunas de las aplicaciones que usas diariamente
+        <span className="whitespace-normal">
+          Confian en nosotros algunas de las aplicaciones que usas diariamente
         </span>
       </h3>
       <ClientLogos />

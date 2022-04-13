@@ -1,6 +1,7 @@
 import React, { useContext, useRef } from "react";
-import s from "../styles/skills.module.css";
 import { ScrollContext } from "../utils/scroll-observer";
+
+import s from "../styles/skills.module.css";
 
 const opacityForBlock = (sectionProgress: number, blockNo: number) => {
   const progress = sectionProgress - blockNo;
@@ -46,8 +47,8 @@ const Skills: React.FC = () => {
               opacity: opacityForBlock(progress, 1),
             }}
           >
-            Nuestro equipo ha contribuido en 128 commits para
-            &ldquo;NextJs&rdquo;, impulsando miles de WebApps.
+            Nuestro equipo trabaja en 26 proyectos, los cuales ocupan:
+            &ldquo;React, NextJs, React Native, Node, javaScript&rdquo;
           </span>
           <span
             className={`${s.skillText} inline-block`}
@@ -55,8 +56,8 @@ const Skills: React.FC = () => {
               opacity: opacityForBlock(progress, 2),
             }}
           >
-            Estamos manteniendo algunos de los proyectos mas populares de codigo
-            abierto, con 1.128 descargas.
+            Impulsados por las librerias de codigo abirto mas populares del
+            mundo.
           </span>
         </div>
       </div>

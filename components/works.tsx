@@ -20,18 +20,18 @@ const Works = () => (
         renderContent={({ progress }) => (
           <WorkContainer>
             <WorkLeft progress={progress}>
-              <div>We built</div>
+              <div>Controle:</div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <WorkLink href="https://google.com">Pink panda</WorkLink>{" "}
-                &apos;s app
+                <WorkLink href="https://google.com">Administre</WorkLink> su
+                aplicacion
               </div>
             </WorkLeft>
             <WorkRight progress={progress}>
               <Image
-                src="/assets/works/fon1.png"
+                src="/assets/works/work-1.png"
                 layout="responsive"
-                width={840}
-                height={1520}
+                width={2090}
+                height={1500}
                 alt="Pink Panda"
               />
             </WorkRight>
