@@ -39,7 +39,7 @@ export const WorkRight: React.FC<{ progress: number; children: any }> = ({
   let translateY = Math.max(-50, -(progress - 0.5) * 50);
   return (
     <div
-      className="flex flex-1 lg:items-center justify-center h-screen"
+      className="flex flex-1 lg:items-center justify-center h-screen drop-shadow-[0_6px_5px_rgba(0,0,0,0.4)]"
       style={{
         transform: `translateY(${translateY}px)`,
       }}

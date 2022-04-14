@@ -1,13 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Tile, TileBackground, TileContent, TileWrapper } from "./tile";
-import {
-  WorkBackground,
-  WorkContainer,
-  WorkLeft,
-  WorkLink,
-  WorkRight,
-} from "./work";
+import { WorkBackground, WorkContainer, WorkLeft, WorkRight } from "./work";
 
 const Works = () => (
   <TileWrapper numOfPages={3}>
@@ -20,17 +14,16 @@ const Works = () => (
         renderContent={({ progress }) => (
           <WorkContainer>
             <WorkLeft progress={progress}>
-              <div>Controle:</div>
+              <div>Administre </div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <WorkLink href="https://google.com">Administre</WorkLink> su
-                aplicacion
+                toda su aplicacion su aplicacion
               </div>
             </WorkLeft>
             <WorkRight progress={progress}>
               <Image
                 src="/assets/works/work-1.png"
                 layout="responsive"
-                width={2090}
+                width={2690}
                 height={1500}
                 alt="Pink Panda"
               />
@@ -45,18 +38,17 @@ const Works = () => (
         renderContent={({ progress }) => (
           <WorkContainer>
             <WorkLeft progress={progress}>
-              <div>We built</div>
+              <div>Amigable</div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <WorkLink href="https://google.com">Pink panda</WorkLink>{" "}
-                &apos;s app
+                y escalable para todos los navegadores y motores de busaqueda
               </div>
             </WorkLeft>
             <WorkRight progress={progress}>
               <Image
-                src="/assets/works/fon1.png"
+                src="/assets/works/work-2.png"
                 layout="responsive"
-                width={840}
-                height={1520}
+                width={1720}
+                height={840}
                 alt="Pink Panda"
               />
             </WorkRight>
@@ -70,18 +62,17 @@ const Works = () => (
         renderContent={({ progress }) => (
           <WorkContainer>
             <WorkLeft progress={progress}>
-              <div>We built</div>
+              <div>Accesibilidad</div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <WorkLink href="https://google.com">Pink panda</WorkLink>{" "}
-                &apos;s app
+                disponible en 13 idiomas
               </div>
             </WorkLeft>
             <WorkRight progress={progress}>
               <Image
-                src="/assets/works/fon1.png"
+                src="/assets/works/work-3.png"
                 layout="responsive"
-                width={840}
-                height={1520}
+                width={1520}
+                height={1320}
                 alt="Pink Panda"
               />
             </WorkRight>

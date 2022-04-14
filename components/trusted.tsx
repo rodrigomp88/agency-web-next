@@ -11,7 +11,8 @@ const Trusted: React.FC = () => (
     <div className="flex flex-col justify-center items-center">
       <h3 className="text-xl mb-10 font-bold text-center">
         <span className="whitespace-normal">
-          Confian en nosotros algunas de las aplicaciones que usas diariamente
+          Construimos aplicaciones con las tecnologias mas demandadas del
+          mercado
         </span>
       </h3>
       <ClientLogos />

@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
           placeholder="Informacion adicional"
           className="bg-black text-white outline-none border-2 border-white rounded-3xl px-8 py-6 min-h-[16em]"
         ></textarea>
-        <div className="text-center mt-10">
+        <div className="text-center my-10 ">
           <button
             type="submit"
             className="bg-white text-black rounded-3xl px-8 py-2"
