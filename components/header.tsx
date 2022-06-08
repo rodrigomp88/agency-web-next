@@ -49,12 +49,10 @@ const Header: React.FC = () => {
         />
       </div>
       <div className="p-8 font-bold z-10 text-black drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)] text-center flex-1 flex items-center justify-center flex-col">
-        <h1 className="mb-8 text-4xl xl:text-5xl">Agencia Web.</h1>
+        <h1 className="mb-8 text-4xl xl:text-5xl">A<span className="text-lime-500">pp</span>gency</h1>
         <h2 className="mb-2 text-lg xl:text-3xl tracking-tight">
           <span>
-            Desarrollo de paginas y aplicaciones web, lleva un control de tu
-            negocio en todo momento y lugar, o simplemente promociona tu
-            producto/servicio.
+            We're build amazing Minimalist designs 
           </span>
         </h2>
       </div>
